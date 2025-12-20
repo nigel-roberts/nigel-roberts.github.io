@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://nigel-roberts.github.io/sitemap.xml
