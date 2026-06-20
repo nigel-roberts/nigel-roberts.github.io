@@ -2,221 +2,357 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Nigel Roberts, CISSP | Cybersecurity Consultant</title>
+  <title>Nigel Roberts, CISSP | Cybersecurity Consultant and Founder of NexSecure Solutions</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="robots" content="index,follow" />
-  <meta name="description" content="Nigel Roberts, CISSP. Founder of NexSecure Solutions LLC in Bowie, Maryland. Practical cybersecurity for SMBs: risk assessments, vCISO, Microsoft 365 hardening, AI governance, compliance (NIST, CIS, HIPAA, CMMC), vendor risk, security awareness, incident readiness." />
+  <meta name="author" content="Nigel Roberts" />
+  <meta name="description" content="Nigel Roberts, CISSP is a cybersecurity consultant and founder of NexSecure Solutions LLC in Bowie, Maryland, focused on SMB cyber risk, vCISO, Microsoft 365 hardening, and compliance readiness." />
   <link rel="canonical" href="https://nigel-roberts.github.io/" />
 
-  <meta property="og:title" content="Nigel Roberts, CISSP | Cybersecurity Consultant" />
-  <meta property="og:description" content="Founder of NexSecure Solutions LLC. Practical cybersecurity for SMBs in Bowie, Maryland." />
+  <meta property="og:title" content="Nigel Roberts, CISSP | Cybersecurity Consultant and Founder of NexSecure Solutions" />
+  <meta property="og:description" content="Nigel Roberts, CISSP is a cybersecurity consultant and founder of NexSecure Solutions LLC in Bowie, Maryland, focused on SMB cyber risk, vCISO, Microsoft 365 hardening, and compliance readiness." />
   <meta property="og:url" content="https://nigel-roberts.github.io/" />
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="profile" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Nigel Roberts, CISSP | Cybersecurity Consultant and Founder of NexSecure Solutions" />
+  <meta name="twitter:description" content="Nigel Roberts, CISSP is a cybersecurity consultant and founder of NexSecure Solutions LLC in Bowie, Maryland, focused on SMB cyber risk, vCISO, Microsoft 365 hardening, and compliance readiness." />
 
   <style>
-    body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:40px;color:#111;max-width:980px}
-    h1{font-size:2rem;margin:0 0 8px}
-    h2{margin-top:28px;font-size:1.2rem}
-    p{max-width:78ch}
-    ul{padding-left:20px}
-    a{color:#0b57d0;text-decoration:none}
-    a:hover{text-decoration:underline}
-    .tag{display:inline-block;background:#eef3ff;border:1px solid #d6e2ff;border-radius:6px;padding:2px 8px;margin:2px 6px 0 0;font-size:.85rem}
-    .note{color:#444;font-size:.95rem}
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      font: 16px/1.65 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      margin: 0;
+      padding: 40px 24px;
+      color: #111;
+      background: #fff;
+    }
+    main {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    header {
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    h1 {
+      font-size: 2rem;
+      margin: 0 0 10px;
+      color: #0b1220;
+    }
+    h2 {
+      font-size: 1.15rem;
+      margin: 36px 0 12px;
+      color: #0b1220;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 6px;
+    }
+    p {
+      max-width: 78ch;
+      margin: 0 0 14px;
+    }
+    ul {
+      padding-left: 20px;
+      margin: 0 0 14px;
+    }
+    li {
+      margin-bottom: 6px;
+    }
+    a {
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .hero-sub {
+      color: #374151;
+      font-size: 1rem;
+      max-width: 78ch;
+    }
+    .focus-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+      gap: 16px;
+      margin: 16px 0 28px;
+    }
+    .focus-card {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .focus-card strong {
+      display: block;
+      margin-bottom: 4px;
+      color: #0b1220;
+      font-size: 0.95rem;
+    }
+    .focus-card p {
+      font-size: 0.9rem;
+      color: #374151;
+      margin: 0;
+    }
+    footer {
+      margin-top: 48px;
+      border-top: 1px solid #e5e7eb;
+      padding-top: 20px;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+    footer a {
+      color: #374151;
+      margin-right: 16px;
+    }
+    section {
+      margin-bottom: 8px;
+    }
+    @media (max-width: 600px) {
+      body { padding: 24px 16px; }
+      h1 { font-size: 1.5rem; }
+    }
   </style>
 
   <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "ProfilePage",
-        "@id": "https://nigel-roberts.github.io/#profilepage",
-        "name": "Nigel Roberts, CISSP | Cybersecurity Consultant",
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfilePage",
+      "@id": "https://nigel-roberts.github.io/#profilepage",
+      "url": "https://nigel-roberts.github.io/",
+      "name": "Nigel Roberts, CISSP | GitHub Pages Profile",
+      "dateModified": "2026-06-19",
+      "mainEntity": {
+        "@type": "Person",
+        "@id": "https://nigel-roberts.github.io/#person",
+        "name": "Nigel Roberts",
+        "alternateName": "Nigel Roberts, CISSP",
+        "jobTitle": "Cybersecurity Consultant",
+        "description": "Cybersecurity consultant, CISSP, and founder of NexSecure Solutions LLC in Bowie, Maryland. Works with small and mid-sized businesses to reduce cyber risk, strengthen security programs, and meet compliance requirements.",
         "url": "https://nigel-roberts.github.io/",
-        "description": "Technical profile and verified link directory for Nigel Roberts, CISSP - cybersecurity advisor and founder of NexSecure Solutions LLC in Bowie, Maryland.",
-        "mainEntity": {
-          "@type": "Person",
-          "@id": "https://nexsecuresolutions.com/nigel-roberts-cissp/#person",
-          "name": "Nigel Roberts",
-          "givenName": "Nigel",
-          "familyName": "Roberts",
-          "jobTitle": "Founder and Principal Cybersecurity Advisor",
-          "description": "CISSP-certified cybersecurity advisor and founder of NexSecure Solutions LLC in Bowie, Maryland. Specializes in Microsoft 365 security hardening, vCISO services, AI governance, risk assessments, vendor risk management, and cyber insurance readiness for small businesses and nonprofits.",
-          "url": "https://nexsecuresolutions.com/nigel-roberts-cissp/",
-          "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Bowie",
-            "addressRegion": "MD",
-            "addressCountry": "US"
-          },
-          "hasCredential": [
-            {
-              "@type": "EducationalOccupationalCredential",
-              "name": "Certified Information Systems Security Professional (CISSP)",
-              "credentialCategory": "Professional Certification",
-              "recognizedBy": {
-                "@type": "Organization",
-                "name": "ISC2"
-              }
-            }
-          ],
-          "worksFor": {
-            "@type": "Organization",
-            "@id": "https://nexsecuresolutions.com/#organization",
-            "name": "NexSecure Solutions LLC",
-            "url": "https://nexsecuresolutions.com/"
-          },
-          "sameAs": [
-            "https://nexsecuresolutions.com/nigel-roberts-cissp/",
-            "https://nigelrobertsadvisory.com/",
-            "https://nigelrobertscissp.wordpress.com/",
-            "https://sites.google.com/view/nigel-roberts-cissp/home",
-            "https://about.me/nigel_roberts",
-            "https://www.linkedin.com/in/nigel-roberts-cissp/",
-            "https://www.linkedin.com/company/nexsecuresolutions",
-            "https://www.crunchbase.com/person/nigel-roberts-cissp",
-            "https://www.crunchbase.com/organization/nexsecure-solutions-llc",
-            "https://www.credly.com/users/nigel-roberts.34ef6e7b",
-            "https://medium.com/@nigel-roberts",
-            "https://substack.com/@nigelrobertscyber",
-            "https://www.slideshare.net/nexsecuresolutions",
-            "https://clarity.fm/nigelroberts",
-            "https://speakerhub.com/speaker/nigel-roberts",
-            "https://www.quora.com/profile/Nigel-Roberts-172",
-            "https://wgu.academia.edu/NigelRoberts",
-            "https://www.goodfirms.co/company/nexsecure",
-            "https://wellfound.com/u/nigel-roberts-6",
-            "https://www.upwork.com/freelancers/~012174f949ede93bc4",
-            "https://app.gocatalant.com/c/_/profile/xqykg8/",
-            "https://www.producthunt.com/@nigelroberts",
-            "https://buymeacoffee.com/nigelroberts",
-            "https://www.alignable.com/bowie-md/nexsecure-solutions-llc",
-            "https://github.com/nigel-roberts",
-            "https://github.com/nigel-roberts/nigel-roberts.github.io",
-            "https://github.com/nigel-roberts/nigel-roberts",
-            "https://www.youtube.com/@NexSecureSolutions",
-            "https://www.youtube.com/@Nigel_Roberts",
-            "https://www.instagram.com/nexsecuresolutions/",
-            "https://www.instagram.com/thenigelroberts/",
-            "https://www.threads.com/@thenigelroberts",
-            "https://x.com/NigelERoberts",
-            "https://www.facebook.com/nigelroberts.cyber",
-            "https://www.facebook.com/NexSecureSolutions",
-            "https://www.pinterest.com/nexsecuresolutions/"
-          ]
-        }
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Bowie",
+          "addressRegion": "MD",
+          "addressCountry": "US"
+        },
+        "worksFor": {
+          "@type": "Organization",
+          "@id": "https://nexsecuresolutions.com/#organization",
+          "name": "NexSecure Solutions LLC",
+          "url": "https://nexsecuresolutions.com/"
+        },
+        "knowsAbout": [
+          "Cybersecurity risk assessments",
+          "vCISO",
+          "Microsoft 365 hardening",
+          "Vulnerability management",
+          "Cyber insurance readiness",
+          "Compliance readiness",
+          "NIST Cybersecurity Framework",
+          "CIS Controls",
+          "HIPAA",
+          "CMMC",
+          "AI governance",
+          "Third-party risk",
+          "Incident response planning",
+          "Security awareness"
+        ],
+        "sameAs": [
+          "https://www.linkedin.com/in/nigel-roberts-cissp/",
+          "https://medium.com/@nigel-roberts",
+          "https://github.com/nigel-roberts",
+          "https://www.credly.com/users/nigel-roberts.34ef6e7b",
+          "https://about.me/nigel_roberts",
+          "https://speakerhub.com/speaker/nigel-roberts",
+          "https://substack.com/@nigelrobertscyber",
+          "https://www.quora.com/Nigel-Roberts-172",
+          "https://nigelrobertsadvisory.com/",
+          "https://sites.google.com/view/nigel-roberts-cissp/home",
+          "https://www.youtube.com/@Nigel_Roberts",
+          "https://www.instagram.com/thenigelroberts/",
+          "https://www.threads.com/@thenigelroberts",
+          "https://x.com/NigelERoberts"
+        ]
       }
-    ]
-  }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://nexsecuresolutions.com/#organization",
+      "name": "NexSecure Solutions LLC",
+      "url": "https://nexsecuresolutions.com/",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Bowie",
+        "addressRegion": "MD",
+        "addressCountry": "US"
+      },
+      "founder": {
+        "@type": "Person",
+        "@id": "https://nigel-roberts.github.io/#person"
+      },
+      "sameAs": [
+        "https://www.linkedin.com/company/nexsecuresolutions",
+        "https://www.crunchbase.com/organization/nexsecure-solutions-llc",
+        "https://www.goodfirms.co/company/nexsecure",
+        "https://www.alignable.com/bowie-md/nexsecure-solutions-llc",
+        "https://www.youtube.com/@NexSecureSolutions",
+        "https://www.instagram.com/nexsecuresolutions/",
+        "https://www.facebook.com/NexSecureSolutions",
+        "https://www.slideshare.net/nexsecuresolutions",
+        "https://www.pinterest.com/NexSecureSolutions/"
+      ]
+    }
+  ]
   </script>
 </head>
 
 <body>
-  <h1>Nigel Roberts, CISSP</h1>
+  <main>
+    <header>
+      <h1>Nigel Roberts, CISSP</h1>
+      <p class="hero-sub">
+        Cybersecurity consultant, CISSP, and founder of <a href="https://nexsecuresolutions.com/" rel="me">NexSecure Solutions LLC</a> in Bowie, Maryland.
+        I help small and mid-sized businesses reduce cyber risk, improve security, and make better decisions about technology risk.
+      </p>
+      <p class="hero-sub">
+        Focus areas include vCISO support, Microsoft 365 hardening, vulnerability management, cyber insurance readiness,
+        compliance support, vendor risk, AI governance, security awareness, and incident response planning.
+      </p>
+    </header>
 
-  <p>
-    Founder and Principal Consultant at <a href="https://nexsecuresolutions.com/" rel="me">NexSecure Solutions LLC</a> (Bowie, Maryland).
-    I help small and mid-sized businesses reduce cyber risk and meet compliance without enterprise overhead.
-  </p>
+    <section>
+      <h2>Start Here</h2>
+      <ul>
+        <li><a href="https://nexsecuresolutions.com/start-here" rel="me">Start Here with NexSecure Solutions</a></li>
+        <li><a href="https://nexsecuresolutions.com/nigel-roberts-cissp/" rel="me">Nigel Roberts, CISSP founder profile</a></li>
+        <li><a href="https://nexsecuresolutions.com/cybersecurity-services/" rel="me">NexSecure cybersecurity services</a></li>
+        <li><a href="https://nigelrobertsadvisory.com/" rel="me">Nigel Roberts Advisory</a></li>
+        <li><a href="https://sites.google.com/view/nigel-roberts-cissp/home" rel="me">Google Sites profile</a></li>
+        <li><a href="https://calendly.com/nexsecure/cybersecurity-consultation" rel="me">Book a cybersecurity consultation</a></li>
+      </ul>
+    </section>
 
-  <div>
-    <span class="tag">Risk Assessments</span>
-    <span class="tag">vCISO</span>
-    <span class="tag">Microsoft 365 Hardening</span>
-    <span class="tag">AI Governance</span>
-    <span class="tag">NIST / CIS / HIPAA / CMMC</span>
-    <span class="tag">Vendor Risk</span>
-    <span class="tag">Security Awareness</span>
-    <span class="tag">Incident Readiness</span>
-  </div>
+    <section>
+      <h2>Technical Focus</h2>
+      <div class="focus-grid">
+        <div class="focus-card">
+          <strong>Microsoft 365 Security</strong>
+          <p>Hardening Microsoft 365 environments for small businesses. Covers Defender, Entra ID, conditional access, and admin controls.</p>
+        </div>
+        <div class="focus-card">
+          <strong>vCISO and Cybersecurity Leadership</strong>
+          <p>Fractional CISO services for growing organizations. Security strategy, board communication, and risk ownership without a full-time hire.</p>
+        </div>
+        <div class="focus-card">
+          <strong>Vulnerability Management</strong>
+          <p>Identifying, prioritizing, and tracking vulnerabilities so teams patch what matters and avoid getting buried in noise.</p>
+        </div>
+        <div class="focus-card">
+          <strong>Cyber Insurance Readiness</strong>
+          <p>Preparing organizations to qualify for coverage, complete applications accurately, and meet insurer security requirements.</p>
+        </div>
+        <div class="focus-card">
+          <strong>Compliance Readiness</strong>
+          <p>Practical work toward NIST CSF, CIS Controls, HIPAA, and CMMC alignment without turning compliance into a checkbox exercise.</p>
+        </div>
+        <div class="focus-card">
+          <strong>Third-Party Risk</strong>
+          <p>Reviewing vendor security posture, contracts, and data access so businesses know what risk they are accepting before signing.</p>
+        </div>
+        <div class="focus-card">
+          <strong>AI Governance</strong>
+          <p>Building guardrails for AI tool adoption. Data handling policies, acceptable use frameworks, and risk reviews for AI-assisted workflows.</p>
+        </div>
+        <div class="focus-card">
+          <strong>Incident Response Planning</strong>
+          <p>Building and testing incident response playbooks so teams know what to do in the first hour of a security event.</p>
+        </div>
+        <div class="focus-card">
+          <strong>Security Awareness</strong>
+          <p>Training programs and phishing simulations that change behavior, not just check a box for annual compliance.</p>
+        </div>
+      </div>
+    </section>
 
-  <h2>Start here</h2>
-  <ul>
-    <li>Personal hub and all links: <a href="https://nexsecuresolutions.com/start-here/" rel="me">nexsecuresolutions.com/start-here</a></li>
-    <li>Founder bio and services: <a href="https://nexsecuresolutions.com/nigel-roberts-cissp/" rel="me">nexsecuresolutions.com/nigel-roberts-cissp</a></li>
-    <li>Advisory and thought leadership: <a href="https://nigelrobertsadvisory.com/" rel="me">nigelrobertsadvisory.com</a></li>
-    <li>Google Sites overview: <a href="https://sites.google.com/view/nigel-roberts-cissp/home" rel="me">sites.google.com/view/nigel-roberts-cissp</a></li>
-    <li>Book a consultation: <a href="https://schedule.oleandergroveholdings.com/free-discovery-and-needs-assessment" rel="me">Schedule a free discovery and needs assessment</a></li>
-  </ul>
+    <section>
+      <h2>Featured Work and Publications</h2>
+      <ul>
+        <li><a href="https://nexsecuresolutions.com/" rel="me">NexSecure Solutions LLC</a></li>
+        <li><a href="https://nexsecuresolutions.com/cybersecurity-services/" rel="me">cybersecurity services for small businesses</a></li>
+        <li><a href="https://nexsecuresolutions.com/nigel-roberts-cissp/" rel="me">Nigel Roberts, CISSP</a></li>
+        <li><a href="https://medium.com/@nigel-roberts" rel="me">cybersecurity articles by Nigel Roberts</a></li>
+        <li><a href="https://nigelrobertsadvisory.com/" rel="me">cybersecurity career and advisory writing</a></li>
+        <li><a href="/papers/">hosted cybersecurity publications</a></li>
+        <li><a href="/papers/lean-security-smb.pdf">Cybersecurity Basics for Small Businesses</a></li>
+      </ul>
+    </section>
 
-  <h2>Professional profiles</h2>
-  <ul>
-    <li>LinkedIn: <a href="https://www.linkedin.com/in/nigel-roberts-cissp/" rel="me">Nigel Roberts, CISSP on LinkedIn</a></li>
-    <li>NexSecure LinkedIn: <a href="https://www.linkedin.com/company/nexsecuresolutions" rel="me">linkedin.com/company/nexsecuresolutions</a></li>
-    <li>Credly (verified credentials): <a href="https://www.credly.com/users/nigel-roberts.34ef6e7b" rel="me">credly.com/users/nigel-roberts.34ef6e7b</a></li>
-    <li>About.me: <a href="https://about.me/nigel_roberts" rel="me">about.me/nigel_roberts</a></li>
-    <li>SpeakerHub: <a href="https://speakerhub.com/speaker/nigel-roberts" rel="me">Professional speaker profile</a></li>
-  </ul>
+    <section>
+      <h2>Verified Professional Profiles</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/nigel-roberts-cissp/" rel="me">Nigel Roberts, CISSP on LinkedIn</a></li>
+        <li><a href="https://www.credly.com/users/nigel-roberts.34ef6e7b" rel="me">verified cybersecurity credentials</a></li>
+        <li><a href="https://about.me/nigel_roberts" rel="me">About.me professional profile</a></li>
+        <li><a href="https://speakerhub.com/speaker/nigel-roberts" rel="me">SpeakerHub profile</a></li>
+        <li><a href="https://substack.com/@nigelrobertscyber" rel="me">cybersecurity writing on Substack</a></li>
+        <li><a href="https://www.quora.com/Nigel-Roberts-172" rel="me">Nigel Roberts on Quora</a></li>
+      </ul>
+    </section>
 
-  <h2>Services</h2>
-  <ul>
-    <li><a href="https://nexsecuresolutions.com/service/ai-governance-risk-management/">AI Governance and Risk Management</a></li>
-    <li><a href="https://nexsecuresolutions.com/ai-governance-starter-checklist/">AI Governance Starter Checklist</a></li>
-    <li><a href="https://nexsecuresolutions.com/cybersecurity-services/">All NexSecure cybersecurity services</a></li>
-  </ul>
+    <section>
+      <h2>Business Profiles</h2>
+      <ul>
+        <li><a href="https://www.linkedin.com/company/nexsecuresolutions" rel="me">NexSecure Solutions on LinkedIn</a></li>
+        <li><a href="https://www.crunchbase.com/person/nigel-roberts-cissp" rel="me">Nigel Roberts, CISSP on Crunchbase</a></li>
+        <li><a href="https://www.crunchbase.com/organization/nexsecure-solutions-llc" rel="me">NexSecure Solutions LLC on Crunchbase</a></li>
+        <li><a href="https://www.goodfirms.co/company/nexsecure" rel="me">NexSecure Solutions on GoodFirms</a></li>
+        <li><a href="https://wellfound.com/u/nigel-roberts-6" rel="me">Wellfound profile</a></li>
+        <li><a href="https://www.alignable.com/bowie-md/nexsecure-solutions-llc" rel="me">NexSecure Solutions on Alignable</a></li>
+        <li><a href="https://www.upwork.com/freelancers/~012174f949ede93bc4" rel="me">Nigel Roberts on Upwork</a></li>
+        <li><a href="https://clarity.fm/nigelroberts" rel="me">advisory calls on Clarity.fm</a></li>
+        <li><a href="https://app.gocatalant.com/c/_/profile/xqykg8/" rel="me">Catalant profile</a></li>
+        <li><a href="https://www.producthunt.com/@nigelroberts" rel="me">Product Hunt profile</a></li>
+        <li><a href="https://buymeacoffee.com/nigelroberts" rel="me">Buy Me a Coffee profile</a></li>
+      </ul>
+    </section>
 
-  <h2>Publishing</h2>
-  <ul>
-    <li>Medium: <a href="https://medium.com/@nigel-roberts" rel="me">Cybersecurity articles by Nigel Roberts</a></li>
-    <li>Substack: <a href="https://substack.com/@nigelrobertscyber" rel="me">substack.com/@nigelrobertscyber</a></li>
-    <li>SlideShare: <a href="https://www.slideshare.net/nexsecuresolutions" rel="me">NexSecure cybersecurity presentations</a></li>
-    <li>Quora: <a href="https://www.quora.com/profile/Nigel-Roberts-172" rel="me">quora.com/profile/Nigel-Roberts-172</a></li>
-    <li>Academia.edu: <a href="https://wgu.academia.edu/NigelRoberts" rel="me">wgu.academia.edu/NigelRoberts</a></li>
-    <li>Academia.edu paper: <a href="https://www.academia.edu/145497104/Cybersecurity_Basics_for_Small_Businesses_Practical_Risk_Reduction_Without_Enterprise_Overhead">Cybersecurity Basics for Small Businesses</a></li>
-  </ul>
+    <section>
+      <h2>GitHub and Technical Assets</h2>
+      <ul>
+        <li><a href="https://github.com/nigel-roberts" rel="me">GitHub profile</a></li>
+        <li><a href="https://github.com/nigel-roberts/nigel-roberts.github.io" rel="me">GitHub Pages repository</a></li>
+        <li><a href="https://github.com/nigel-roberts/nigel-roberts" rel="me">GitHub profile README repository</a></li>
+      </ul>
+    </section>
 
-  <h2>Writing</h2>
-  <ul>
-    <li>
-      <a href="https://nexsecuresolutions.com/vibe-coding-secure-software-review/">Vibe Coding Is Fast. Shipping Secure Software Still Takes Review</a>
-      -- NexSecure Solutions, May 2026. What small SaaS teams miss before launching an AI-assisted product: API keys, authentication, customer data handling, AI agent guardrails, and vendor review.
-    </li>
-  </ul>
+    <section>
+      <h2>Social and Video</h2>
+      <ul>
+        <li><a href="https://www.youtube.com/@NexSecureSolutions" rel="me">NexSecure Solutions on YouTube</a></li>
+        <li><a href="https://www.youtube.com/@Nigel_Roberts" rel="me">Nigel Roberts on YouTube</a></li>
+        <li><a href="https://www.instagram.com/nexsecuresolutions/" rel="me">NexSecure Solutions on Instagram</a></li>
+        <li><a href="https://www.instagram.com/thenigelroberts/" rel="me">Nigel Roberts on Instagram</a></li>
+        <li><a href="https://www.threads.com/@thenigelroberts" rel="me">Threads profile</a></li>
+        <li><a href="https://x.com/NigelERoberts" rel="me">Nigel Roberts on X</a></li>
+        <li><a href="https://www.facebook.com/NexSecureSolutions" rel="me">NexSecure Solutions on Facebook</a></li>
+        <li><a href="https://www.facebook.com/nigelroberts.cyber" rel="me">professional Facebook profile</a></li>
+        <li><a href="https://www.pinterest.com/NexSecureSolutions/" rel="me">NexSecure Solutions on Pinterest</a></li>
+      </ul>
+    </section>
 
-  <h2>Business directories and marketplaces</h2>
-  <ul>
-    <li>Crunchbase (person): <a href="https://www.crunchbase.com/person/nigel-roberts-cissp" rel="me">Nigel Roberts, CISSP on Crunchbase</a></li>
-    <li>Crunchbase (company): <a href="https://www.crunchbase.com/organization/nexsecure-solutions-llc" rel="me">NexSecure Solutions LLC on Crunchbase</a></li>
-    <li>GoodFirms: <a href="https://www.goodfirms.co/company/nexsecure" rel="me">NexSecure Solutions on GoodFirms</a></li>
-    <li>Wellfound: <a href="https://wellfound.com/u/nigel-roberts-6" rel="me">wellfound.com/u/nigel-roberts-6</a></li>
-    <li>Alignable: <a href="https://www.alignable.com/bowie-md/nexsecure-solutions-llc" rel="me">NexSecure Solutions on Alignable</a></li>
-    <li>Upwork: <a href="https://www.upwork.com/freelancers/~012174f949ede93bc4" rel="me">Nigel Roberts on Upwork</a></li>
-    <li>Clarity.fm: <a href="https://clarity.fm/nigelroberts" rel="me">Book an advisory call on Clarity.fm</a></li>
-    <li>Catalant: <a href="https://app.gocatalant.com/c/_/profile/xqykg8/" rel="me">Nigel Roberts on Catalant</a></li>
-    <li>Product Hunt: <a href="https://www.producthunt.com/@nigelroberts" rel="me">producthunt.com/@nigelroberts</a></li>
-    <li>Buy Me a Coffee: <a href="https://buymeacoffee.com/nigelroberts" rel="me">buymeacoffee.com/nigelroberts</a></li>
-  </ul>
-
-  <h2>GitHub</h2>
-  <ul>
-    <li>GitHub profile: <a href="https://github.com/nigel-roberts" rel="me">github.com/nigel-roberts</a></li>
-    <li>GitHub Pages repo: <a href="https://github.com/nigel-roberts/nigel-roberts.github.io" rel="me">nigel-roberts.github.io repo</a></li>
-    <li>Profile README repo: <a href="https://github.com/nigel-roberts/nigel-roberts" rel="me">github.com/nigel-roberts/nigel-roberts</a></li>
-  </ul>
-
-  <h2>Social</h2>
-  <ul>
-    <li>YouTube (NexSecure): <a href="https://www.youtube.com/@NexSecureSolutions" rel="me">@NexSecureSolutions</a></li>
-    <li>YouTube (personal): <a href="https://www.youtube.com/@Nigel_Roberts" rel="me">@Nigel_Roberts</a></li>
-    <li>Instagram (NexSecure): <a href="https://www.instagram.com/nexsecuresolutions/" rel="me">@nexsecuresolutions</a></li>
-    <li>Instagram (personal): <a href="https://www.instagram.com/thenigelroberts/" rel="me">@thenigelroberts</a></li>
-    <li>Threads: <a href="https://www.threads.com/@thenigelroberts" rel="me">@thenigelroberts</a></li>
-    <li>X: <a href="https://x.com/NigelERoberts" rel="me">@NigelERoberts</a></li>
-    <li>Facebook (company): <a href="https://www.facebook.com/NexSecureSolutions" rel="me">NexSecure Solutions on Facebook</a></li>
-    <li>Facebook (professional): <a href="https://www.facebook.com/nigelroberts.cyber" rel="me">facebook.com/nigelroberts.cyber</a></li>
-    <li>Pinterest: <a href="https://www.pinterest.com/nexsecuresolutions/" rel="me">NexSecure Solutions on Pinterest</a></li>
-  </ul>
-
-  <h2>Publications hosted here</h2>
-  <ul>
-    <li><a href="/papers/lean-security-smb.pdf">Cybersecurity Basics for Small Businesses (PDF)</a></li>
-    <li><a href="/papers/">Publications folder</a></li>
-  </ul>
-
-  <p>
-    For projects and speaking inquiries:
-    <a href="mailto:nexsecuresolutions@gmail.com">nexsecuresolutions@gmail.com</a>
-  </p>
+    <footer>
+      <p>
+        <a href="https://nexsecuresolutions.com/" rel="me">NexSecure Solutions</a>
+        <a href="https://nexsecuresolutions.com/nigel-roberts-cissp/" rel="me">Nigel Roberts, CISSP</a>
+        <a href="https://nexsecuresolutions.com/start-here" rel="me">Start Here</a>
+        <a href="https://www.linkedin.com/in/nigel-roberts-cissp/" rel="me">LinkedIn</a>
+        <a href="https://medium.com/@nigel-roberts" rel="me">Medium</a>
+        <a href="https://github.com/nigel-roberts" rel="me">GitHub</a>
+        <a href="https://sites.google.com/view/nigel-roberts-cissp/home" rel="me">Google Sites</a>
+      </p>
+    </footer>
+  </main>
 </body>
 </html>
