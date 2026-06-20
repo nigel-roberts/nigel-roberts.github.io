@@ -1,6 +1,6 @@
-title: "Nigel Roberts, CISSP"
 theme: jekyll-theme-minimal
+title: "Nigel Roberts, CISSP"
+description: "Cybersecurity consultant and founder of NexSecure Solutions LLC, focused on SMB cyber risk, vCISO, Microsoft 365 hardening, and compliance readiness."
 plugins:
-  - jekyll-sitemap
   - jekyll-seo-tag
-description: "Founder of NexSecure Solutions LLC. Practical cybersecurity for SMBs: risk assessments, vCISO, compliance, hardening, awareness, incident readiness."
+  - jekyll-sitemap
