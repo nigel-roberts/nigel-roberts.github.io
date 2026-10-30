@@ -6,7 +6,7 @@ https://nigel-roberts.github.io/
 
 ## Purpose
 
-This repository hosts the public GitHub Pages profile for Nigel Roberts, CISSP.
+This repository maintains Nigel Roberts’ technical identity hub, including practical Microsoft 365 and nonprofit cybersecurity resources. The published site connects documented tools and professional background with [Nigel Roberts Advisory](https://nigelrobertsadvisory.com/) and [NexSecure Solutions](https://nexsecuresolutions.com/).
 
 It serves as a technical identity hub linking verified professional profiles, cybersecurity publications, and the primary business website for NexSecure Solutions LLC.
 
